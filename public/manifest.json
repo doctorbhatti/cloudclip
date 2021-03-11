@@ -1,0 +1,19 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Cloud Clip🔥",
+  "short_name": "Cloud Clip🔥",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://cloud-clip-32aa0.web.app/",
+  "background_color": "#3372DF",
+  "theme_color": "#303F9F",
+  "description": "A simple app, with functionality of sharing clipboard snippets over personal device, using cloud.",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [],
+  "url": "https://cloud-clip-32aa0.web.app/",
+  "screenshots": [],
+  "generated": true
+}
