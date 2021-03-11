@@ -424,5 +424,5 @@ window.addEventListener('load', function() {
     messageInput.value = '';
     titleInput.value = '';
   };
-  myTopPostsMenuButton.onclick();
+  myPostsMenuButton.onclick();
 }, false);

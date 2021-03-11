@@ -77,9 +77,16 @@
     <script src="//cdn.jsdelivr.net/npm/eruda"></script>
 
     <script>eruda.init();</script>
-    <script>
-  
-    </script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate">
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script> 
+    <link rel="manifest" href="manifest.json"></link>
+    <script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
+></script>
 </head>
 <body>
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -87,7 +94,7 @@
 
   <!-- Splash screen -->
   <section id="page-splash">
-    <h3 class="logo">Database Web Quickstart</h3>
+    <h3 class="logo">Cloud Clip 🔥</h3>
     <div>
       <button id="sign-in-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign in with Google</button>
     </div>
@@ -97,7 +104,7 @@
   <header class="header mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
 
     <div class="mdl-layout__header-row titlebar">
-      <h3 class="logo">Database Web Quickstart</h3>
+      <h3 class="logo">Cloud Clip 🔥</h3>
       <button id="sign-out-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign out</button>
     </div>
 
@@ -110,10 +117,10 @@
         </div>
         
         <div id="menu-my-posts" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">home</i> My Sanboxes
+          <i class="material-icons">eco</i> My Sanboxes
         </div>
         <div id="menu-my-top-posts" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">trending_up</i> Starred
+          <i class="material-icons">favorite</i> Favorites 
         </div>
         <button class="mdl-button mdl-js-button mdl-button--fab mdl-color--amber-400 mdl-shadow--4dp mdl-js-ripple-effect" id="add">
           <i class="material-icons">mode_edit</i>
@@ -132,7 +139,7 @@
           <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet
                   mdl-cell--6-col-desktop">
             <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
-              <h2 class="mdl-card__title-text">New Sanbox</h2>
+              <h2 class="mdl-card__title-text">New Sanbox✨</h2>
             </div>
             <div class="mdl-card__supporting-text mdl-color-text--grey-600">
               <form id="message-form" action="#">
